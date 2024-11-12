@@ -29,6 +29,8 @@ cat files/secrets/credentials.vault
 ```
 ansible-galaxy install -r roles/requirements.yml
 ```
+## Bien renseigner l'IP de votre client dans le fichier hosts.yml
+Ip à renseigner dans le fichier `hosts.yml`
 
 ## Lancez votre PlayBook
 ```
