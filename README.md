@@ -14,3 +14,6 @@ Ce playbook Ansible utilise un rôle pour installer un conteneur Apache et y dé
 - éléchargement du script d'installation de `pip`.
 - Installation de pip pour Python 2.7
 - Installation de `docker-py` via `pip`
+
+## Encryptez le fichier credentials.vault à l’aide de la commande ansible-vault encrypt
+```ansible-vault encrypt files/secrets/credentials.vault
