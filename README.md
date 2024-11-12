@@ -1,4 +1,4 @@
-# Playbook Ansible : Déploiement de Site Web dans un Conteneur Apache
+# Playbook Ansible : Déploiement de Site Web dans un Conteneur Apache à partir d'un rôle
 
 Ce playbook Ansible utilise un rôle pour installer un conteneur Apache et y déployer un site web. Le contenu du site est récupéré depuis les templates définis dans le rôle.
 
