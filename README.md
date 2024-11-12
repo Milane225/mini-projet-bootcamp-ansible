@@ -18,3 +18,22 @@ Ce playbook Ansible utilise un rôle pour installer un conteneur Apache et y dé
 ## Encryptez le fichier credentials.vault contenu dans le dossier files à l’aide de la commande ansible-vault encrypt
 ```
 ansible-vault encrypt files/secrets/credentials.vault
+```
+
+## Pour vérifier que le fichier credentials.vault a été bien encrypté
+```
+cat files/secrets/credentials.vault
+```
+
+## Récupération des rôles Ansible
+```
+ansible-galaxy install -r roles/requirements.yml
+```
+
+## Lancez votre PlayBook
+```
+ansible-playbook -i hosts.yml --ask-vault-pass -vvv tests.yml
+```
+
+## Vérifiez que le site a été bien deployé chez le client
+Ouvrez le port `80`
