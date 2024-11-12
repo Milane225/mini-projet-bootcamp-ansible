@@ -8,7 +8,7 @@ Ce playbook Ansible utilise un rôle pour installer un conteneur Apache et y dé
 - Docker installé sur la machine cible pour exécuter le conteneur Apache.
 - Le rôle Ansible requis pour l'installation et le déploiement du site : `ansible-role-webapp`
 
-  ## Pre-Tasks
+## Pre-Tasks
 
 - Installation des paquets EPEL, git et wget.
 - éléchargement du script d'installation de `pip`.
